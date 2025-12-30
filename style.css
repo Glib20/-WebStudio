@@ -140,7 +140,7 @@ ul {
       rgba(0,0,0,0.2),
       rgba(0,0,0,0.2)
     ),
-    url("./img.jpg");
+    url("./img/img.jpg");
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -209,16 +209,16 @@ ul {
 }
 
 .features-list-item:nth-child(1)::before {
-  background-image: url("./web.jpg");
+  background-image: url("./img/web.jpg");
 }
 .features-list-item:nth-child(2)::before {
-  background-image: url("./gra.jpg");
+  background-image: url("./img/gra.jpg");
 }
 .features-list-item:nth-child(3)::before {
-  background-image: url("./gre.jpg");
+  background-image: url("./img/gre.jpg");
 }
 .features-list-item:nth-child(4)::before {
-  background-image: url("./gro.jpg");
+  background-image: url("./img/gro.jpg");
 }
 
 .features-list-item h3 {
@@ -712,3 +712,4 @@ ul {
     grid-template-columns: 1fr;
   }
 }
+
